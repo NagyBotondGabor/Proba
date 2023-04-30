@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,300&display=swap');
+*{box-sizing: border-box; margin: 0; padding: 0;}
+img{max-width: 100%;}
+body{
+    font-family: 'Montserrat' sans-serif;
+    background-image:url("./img/32517960-healthy-lifestyle-seamless-background-elements-for-design.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: green;
+}
+nav>ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: c;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li{list-style-type: none;}
+nav ul a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: .7rem;
+    font-size: 1.1rem;
+}
+nav ul a:hover{
+    background-color: yellowgreen;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+    padding: .5rem;
+}
+header h1{
+    color: black;
+    letter-spacing: .5rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+#elso{
+    max-width: 25rem;
+    border-radius: 50% !important;
+    box-shadow: 1.5px 1.5px 1.5px, rgb(57, 156, 27);
+    margin: .5rem
+}
+.sectionrow{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    gap: 4rem;
+}
+.sectionrow .card{
+    border-radius: 0;
+    border-width: 3px;
+    border-top-color: gray;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: gray;
+}
+.card2, .card3{
+    margin-top: -2rem;
+}
+#testmozgás{
+    border-color: white;
+}
+.myrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.myrow .card{
+    margin-top: 1rem;
+}
