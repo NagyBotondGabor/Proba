@@ -89,3 +89,34 @@ header h1{
 .myrow .card{
     margin-top: 1rem;
 }
+.login>img{
+    border-radius: 50%;
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
+.card4 .login{
+    position: relative;
+}
+.card4{
+    width: 300px;
+    float: left;
+}
+.login{
+    width: 400px;
+}
