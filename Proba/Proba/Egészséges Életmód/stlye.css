@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,300&display=swap');
+:root{
+    --yellow: #FAD776;
+    --vanília: #ECDCA7 ;
+    --gray: #8E90A9;
+    --lightgray: #9596B9;
+    --Night:#050F06;
+    --DarkGreen: #192118;
+    --Grren:#616B1D;
+    --Brown:#615C45;
+    --Red:#801A09;
+    --LightBrown:#C4BB91;
+}
+
 *{box-sizing: border-box; margin: 0; padding: 0;}
 img{max-width: 100%;}
 body{
     font-family: 'Montserrat' sans-serif;
-    background-image:url("./img/32517960-healthy-lifestyle-seamless-background-elements-for-design.webp");
+    background-image: url("../img/olive-oil-g8d5e3214f_1920.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 nav{
     display: flex;
@@ -45,7 +59,7 @@ header{
     padding: .5rem;
 }
 header h1{
-    color: black;
+    color: white;
     letter-spacing: .5rem;
     font-weight: 700;
     font-size: 3rem;
@@ -64,6 +78,7 @@ header h1{
     flex-direction: row;
     justify-content: end;
     gap: 4rem;
+
 }
 .sectionrow .card{
     border-radius: 0;
@@ -72,12 +87,14 @@ header h1{
     border-right-color: gray;
     border-bottom-color: gray;
     border-left-color: gray;
+    background-color:var(--Brown);
 }
 .card2, .card3{
     margin-top: -2rem;
+    
 }
 #testmozgás{
-    border-color: white;
+    
 }
 .myrow{
     display: flex;
@@ -85,78 +102,27 @@ header h1{
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
+    
 }
 .myrow .card{
     margin-top: 1rem;
+    
 }
-.sleep-card {
-    max-width: 500px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 20px;
-  }
-  
-  .sleep-card img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .sleep-card h2 {
-    font-size: 24px;
-    margin: 20px;
-  }
-  
-  .sleep-card p {
-    margin: 10px 20px;
-    font-size: 18px;
-  }
-  
-  .sleep-card ul {
-    margin: 10px 20px;
-    padding: 0;
-    font-size: 18px;
-  }
-  
-  .sleep-card li {
-    list-style: disc;
-    margin-left: 20px;
-  }
-  
-  .sleep-card .source {
-    margin: 10px 20px;
-    font-size: 14px;
-    text-align: right;
-    color: #666;
-  }
-.login>img{
-    border-radius: 50%;
+.card-text{
+
+
 }
-input[type=text], input[type=password] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
+.card-title{
+    color: var(--Night);
 }
-span.psw {
-    float: right;
-    padding-top: 16px;
-  }
-  
-  @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
+p{color: var(--vanília);}
+ul li {
+    color: var(--vanília);
 }
-.card4 .login{
-    position: relative;
-}
-.card4{
-    width: 300px;
-    float: left;
-}
-.login{
-    width: 400px;
+#login{
+    background-color: #801A09;
+    
+margin-top: 10px;
+padding:0;
+
 }
