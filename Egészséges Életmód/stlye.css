@@ -89,6 +89,46 @@ header h1{
 .myrow .card{
     margin-top: 1rem;
 }
+.sleep-card {
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .sleep-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sleep-card h2 {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .sleep-card p {
+    margin: 10px 20px;
+    font-size: 18px;
+  }
+  
+  .sleep-card ul {
+    margin: 10px 20px;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  .sleep-card li {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .sleep-card .source {
+    margin: 10px 20px;
+    font-size: 14px;
+    text-align: right;
+    color: #666;
+  }
 .login>img{
     border-radius: 50%;
 }
