@@ -3,7 +3,7 @@
 img{max-width: 100%;}
 body{
     font-family: 'Montserrat' sans-serif;
-    background-image:url("./img/32517960-healthy-lifestyle-seamless-background-elements-for-design.webp");
+    background-image:url("./img/olive-oil-g8d5e3214f_1920.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -45,7 +45,7 @@ header{
     padding: .5rem;
 }
 header h1{
-    color: black;
+    color: white;
     letter-spacing: .5rem;
     font-weight: 700;
     font-size: 3rem;
@@ -73,6 +73,11 @@ header h1{
     border-bottom-color: gray;
     border-left-color: gray;
 }
+.card:hover{
+    transform: translateY(-5px) scale(1.001) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
 .card2, .card3{
     margin-top: -2rem;
 }
@@ -88,6 +93,10 @@ header h1{
 }
 .myrow .card{
     margin-top: 1rem;
+}
+.who-card{
+    max-width: 1400px;
+    width: 1400px;
 }
 .sleep-card {
     max-width: 500px;
@@ -129,6 +138,12 @@ header h1{
     text-align: right;
     color: #666;
   }
+  footer{
+    background-color: rgb(107, 15, 15);
+  }
+  footer label{
+    color: #ccc;
+  }
 .login>img{
     border-radius: 50%;
 }
@@ -138,25 +153,11 @@ input[type=text], input[type=password] {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-}
-span.psw {
-    float: right;
-    padding-top: 16px;
-  }
-  
-  @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
+} 
+  @media screen and (max-width: 600px) {
+    .col-12 col-lg-4 .col-md-6{
+        width: 100%;
+    display: block;
+    margin-bottom: 20px;
     }
-}
-.card4 .login{
-    position: relative;
-}
-.card4{
-    width: 300px;
-    float: left;
-}
-.login{
-    width: 400px;
-}
+  }
